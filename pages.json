@@ -1,0 +1,336 @@
+{
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/assessResult/assessResult",
+      "style": {
+        "navigationBarTitleText": "结果查询",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/assess/assess",
+      "style": {
+        "navigationBarTitleText": "风险评估",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/volunteer/volunteer",
+      "style": {
+        "navigationBarTitleText": "志愿服务",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/learn/learn",
+      "style": {
+        "navigationBarTitleText": "科普专区",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/article/article",
+      "style": {
+        "navigationBarTitleText": "经验分享",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/block/block",
+      "style": {
+        "navigationBarTitleText": "阻断",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/answer/answer",
+      "style": {
+        "navigationBarTitleText": "回答列表",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/edit/edit",
+      "style": {
+        "navigationBarTitleText": "编辑",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/volunteerInfo/volunteerInfo",
+      "style": {
+        "navigationBarTitleText": "预约详情",
+        "enablePullDownRefresh": false
+      }
+    },
+
+    {
+      "path": "pages/register/register",
+      "style": {
+        "navigationBarTitleText": "注册",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/PersonalData/PersonalData",
+      "style": {
+        "navigationBarTitleText": "个人信息",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/modifyInfo/modifyInfo",
+      "style": {
+        "navigationBarTitleText": "修改信息",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/opinion/opinion",
+      "style": {
+        "navigationBarTitleText": "意见反馈",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/setUp/setUp",
+      "style": {
+        "navigationBarTitleText": "设置",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/address/address",
+      "style": {
+        "navigationBarTitleText": "地址",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "pages-index",
+      "pages": [
+        {
+          "path": "pages/question/question",
+          "style": {
+            "navigationBarTitleText": "问答专区"
+          }
+        },
+        {
+          "path": "pages/quiz/quiz",
+          "style": {
+            "navigationBarTitleText": "知识竞赛",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/quizList/quizList",
+          "style": {
+            "navigationBarTitleText": "知识竞赛",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/articleDetails/articleDetails",
+          "style": {
+            "navigationBarTitleText": "文章详情",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/applicationReagent/applicationReagent",
+          "style": {
+            "navigationBarTitleText": "申请试剂",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/commitReagent/commitReagent",
+          "style": {
+            "navigationBarTitleText": "提交订单",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/questionnaire/questionnaire",
+          "style": {
+            "navigationBarTitleText": "问卷调查",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/questionnaireDetailed/questionnaireDetailed",
+          "style": {
+            "navigationBarTitleText": "问卷调查",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages-block",
+      "pages": [
+        {
+          "path": "pages/map/map",
+          "style": {
+            "navigationBarTitleText": "地图",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages-my",
+      "pages": [
+        {
+          "path": "pages/myQuestion/myQuestion",
+          "style": {
+            "navigationBarTitleText": "我的提问",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/volunteerRegister/volunteerRegister",
+          "style": {
+            "navigationBarTitleText": "志愿者注册",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/inquiryList/inquiryList",
+          "style": {
+            "navigationBarTitleText": "咨询进度",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/doctorAnswer/doctorAnswer",
+          "style": {
+            "navigationBarTitleText": "医生回答",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/inquiry/inquiry",
+          "style": {
+            "navigationBarTitleText": "咨询",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/scoreShop/scoreShop",
+          "style": {
+            "navigationBarTitleText": "积分商城",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/exchange/exchange",
+          "style": {
+            "navigationBarTitleText": "确认订单",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/private/private",
+          "style": {
+            "navigationBarTitleText": "隐私空间",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/HIVExamine/HIVExamine",
+          "style": {
+            "navigationBarTitleText": "审核",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/privacySpace/privacySpace",
+          "style": {
+            "navigationBarTitleText": "隐私空间",
+            "enablePullDownRefresh": false
+          }
+        },
+        {
+          "path": "pages/mySpace/mySpace",
+          "style": {
+            "navigationBarTitleText": "我的空间",
+            "enablePullDownRefresh": false
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#e03d3d"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#e03d3d",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/icon/tabber/index.png",
+        "selectedIconPath": "./static/icon/tabber/index1.png",
+        "text": "首页"
+      },
+      // {
+      //   "pagePath": "pages/block/block",
+      //   "iconPath": "./static/icon/tabber/block.png",
+      //   "selectedIconPath": "./static/icon/tabber/block1.png",
+      //   "text": "阻断"
+      // },
+      {
+        "pagePath": "pages/learn/learn",
+        "iconPath": "./static/icon/tabber/learn.png",
+        "selectedIconPath": "./static/icon/tabber/learn1.png",
+        "text": "科普"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "./static/icon/tabber/my.png",
+        "selectedIconPath": "./static/icon/tabber/my1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "condition": {
+    //模式配置，仅开发期间生效
+    "current": 0, //当前激活的模式(list 的索引项)
+    "list": [
+      {
+        "name": "", //模式名称
+        "path": "", //启动页面，必选
+        "query": "" //启动参数，在页面的onLoad函数里面得到
+      }
+    ]
+  }
+}
